@@ -1,0 +1,86 @@
+  .container {
+    display: flex;
+    justify-content: space-between; /* or other values like center, space-around */
+    align-items: center; /* or other values like flex-start, flex-end */
+  }
+  
+  .item {
+    flex: 1; /* Flexible space, can also use fixed values like 100px */
+  }
+
+  .a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border: 5px solid rgb(158, 46, 124);
+    background-color: rgb(128, 50, 50);
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    margin-top: 20%;
+    animation: A-nimation 8s\ infinite ;
+  }
+
+  .b {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border: 5px solid rgb(170, 185, 84);
+    background-color: rgb(240, 47, 63);
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    margin-top: 20%;
+    animation: B-nimation 8s infinite ;
+  }
+
+  .c {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border: 5px solid pink;
+    background-color: rgb(48, 116, 42);
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    margin-top: 20%;
+    animation: C-nimation 8s infinite ;
+  }
+
+  .container{
+    justify-content: center;
+  }
+ body {
+  background-color: rgb(243, 170, 170);
+ }
+
+@keyframes A-nimation {
+  15%{
+    background-color: rgb(128, 50, 50);
+  }
+  20%{
+    background-color: rgb(255, 0, 0);
+  }
+  100%{
+    background-color: rgb(255, 0, 0);
+  }
+}
+@keyframes B-nimation {
+  35%{
+    background-color: rgb(141, 99, 51);
+  }
+  40%{
+    background-color: rgb(255, 136, 0);
+  }
+  100%{
+    background-color: rgb(255, 136, 0);
+  }
+}
+@keyframes C-nimation {
+  55%{
+    background-color: rgb(48, 116, 42);
+  }
+  60%{
+    background-color: rgb(21, 255, 0);
+  }
+  100%{
+    background-color: rgb(21, 255, 0);
+  }
+}
