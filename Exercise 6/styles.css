@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-top: 20%;
+  }
+.a {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    background-color: black;
+    border: 2px solid rgb(236, 37, 37);
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.b {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    background-color: black;
+    border: 2px solid rgb(201, 27, 27);
+    column-gap: 25px;
+    row-gap: 25px;
+    grid-column-start: 2;
+}
+.c {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    background-color: black;
+    border: 2px solid rgb(201, 27, 27);
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.d {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    background-color: black;
+    border: 2px solid rgb(201, 27, 27);
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.e {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    background-color: black;
+    border: 2px solid rgb(201, 27, 27);
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.f {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    background-color: black;
+    border: 2px solid rgb(201, 27, 27);
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.g {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    background-color: black;
+    border: 2px solid rgb(201, 27, 27);
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.h {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    background-color: black;
+    border: 2px solid rgb(201, 27, 27);
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.i {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    background-color: black;
+    border: 2px solid rgb(201, 27, 27);
+    column-gap: 25px;
+    row-gap: 25px;
+}
