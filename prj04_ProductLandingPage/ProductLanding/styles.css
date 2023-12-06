@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+#nav-bar{
+    position: fixed;
+    top: 0;
+}
+@media (min-width: 1px){
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
